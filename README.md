@@ -16,8 +16,8 @@
 ## 📘 Usage
 ### 🟦 0. Setup ติดตั้งใช้งาน 
 ```ts
-import { useNuiEvent } from "./utils/useNuiEvent";
-import { fetchNui } from "./utils/fetchNui";
+import { useNuiEvent } from "./useNuiEvent";
+import { fetchNui } from "./fetchNui";
 ```
 
 ### 🟦 1. รับข้อมูลจาก Lua (SendNUIMessage)
