@@ -1,4 +1,4 @@
-# 🚀 FiveM NUI Utilities
+# 🚀 FiveM NUI ↔ Lua
 ชุดเครื่องมือสำหรับช่วยเชื่อมต่อ **NUI ↔ Lua** ใน FiveM ใช้งานง่าย ปลอดภัย และรองรับ React/Next.js
 
 ---
@@ -11,7 +11,15 @@
 
 ---
 
+
+
 ## 📘 Usage
+### 🟦 0. Setup ติดตั้งใช้งาน 
+```ts
+import { useNuiEvent } from "./utils/useNuiEvent";
+import { fetchNui } from "./utils/fetchNui";
+```
+
 ### 🟦 1. รับข้อมูลจาก Lua (SendNUIMessage)
 ```ts
 useNuiEvent("SHOW", (data) => {
